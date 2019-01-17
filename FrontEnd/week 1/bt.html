@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Table của Tèo</title>
+	<style type="text/css">
+		table, th, td{
+			border: 1px solid black;
+			border-collapse: collapse;
+			padding-left: 15px; 
+			padding-right: 15px; 
+		}
+		table{
+			border: 2px solid black;
+		}
+		.title > th, .title > td{
+			text-align: center;
+			font-weight: bold;
+		}
+	</style>
+</head>
+<body>
+	<table>
+		<tbody>
+			<tr class="title">
+				<td rowspan="2">Lớp</td>
+				<td rowspan="2">Họ tên</td>
+				<td rowspan="2">Giới tính</td>
+				<td colspan="3">Xếp loại</td>
+			</tr>
+			<tr class="title">
+				<td>Giỏi</td>
+				<td>Khá</td>
+				<td>Trung bình</td>
+			</tr>
+			<tr>
+				<td rowspan="5">DH10</td>
+				<td>Nguyễn Văn A</td>
+				<td rowspan="3">Nam</td>
+				<td>1</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td>Nguyễn Văn B</td>
+				<td>&nbsp;</td>
+				<td>1</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td>Nguyễn Văn C</td>
+				<td>&nbsp;</td>
+				<td>1</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td>Nguyễn Thị D</td>
+				<td rowspan="2">Nữ</td>
+				<td>1</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td>Nguyễn Thị A</td>
+				<td>1</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>
